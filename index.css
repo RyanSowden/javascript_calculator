@@ -1,0 +1,65 @@
+html body {
+background-color: grey;
+}
+
+
+.calcborder{
+    position: relative;
+    border: 10px solid transparent;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+
+}
+
+.button{
+    width: 15%;
+    height: 50px;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: rgb(194, 185, 185);
+    margin-top: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+    -webkit-appearance: none;
+
+}
+
+.equalbtn {
+    width: 36%;
+    height: 50px;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: rgb(194, 185, 185);
+    margin-top: 5%;
+    font-size: 16px;
+    -webkit-appearance: none;
+
+}
+
+.display {
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+    text-align: right;
+    margin-top: 5%;
+    margin-left: -320px;
+    
+    
+
+}
+
+
+
+.location{
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -160px;
+}
+
+
+
